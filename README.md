@@ -20,7 +20,7 @@ Automatically monitor log files for Cloudflare tunnel URLs, shorten them using p
 
 2. **Set up Discord webhook:**
    ```bash
-   echo "DISCORD_WEBHOOK_URL=[webhookurl]"
+   echo "DISCORD_WEBHOOK_URL=[webhookurl]" > .env
    ```
 3. **Run the monitor:**
    ```bash
