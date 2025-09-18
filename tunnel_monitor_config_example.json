@@ -1,0 +1,21 @@
+{
+  "discord_username": "Tunnel Monitor",
+  "watch_directories": [
+    ".",
+    "/var/log",
+    "~/logs",
+    "~/cloudflared"
+  ],
+  "file_extensions": [
+    ".log",
+    ".txt",
+    ".out"
+  ],
+  "filename_patterns": [
+    "*tunnel*",
+    "*cloudflare*",
+    "*cloudflared*"
+  ],
+  "monitor_log_file": "tunnel_monitor.log",
+  "recursive_monitoring": true
+}
